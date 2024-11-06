@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Ping coming soon page by Aaron Varga</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <img src="./images/logo.svg" alt="Logo graphic" class="logo">
+    <h1>We are launching <span>soon!</span></h1>
+    <p class="subheading">Subscribe and get notified</p>
+    <form action="#/" id="form">
+      <input type="email" name="email" id="email" placeholder="Enter your email address">
+      <p class="error-msg-mobile">Please provide a valid email address</p>
+      <button type="submit" id="submit-btn" aria-label="submit">Notify Me</button>
+    </form>
+    <p class="error-msg">Please provide a valid email address</p>
+    <p class="success-msg">Success! You will be notified when we launch!</p>
+    <img src="./images/illustration-dashboard.png" alt="Dashboard illustration graphic" class="dash-gfx">
+  </main>
+  <footer>
+    <div class="social-icons-container">
+      <!-- Facebook -->
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <!-- Twitter / X -->
+      <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+      <!-- Instagram -->
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
+      Coded by <a href="https://www.frontendmentor.io/profile/thenihilistdev" target="_blank">Aaron Varga</a>.
+    </p>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
